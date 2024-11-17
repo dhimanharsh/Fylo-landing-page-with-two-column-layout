@@ -1,0 +1,538 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+nav {
+    height: 8rem;
+    width: 99.9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ol {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 4rem;
+}
+.nav-items {
+    width: 30%;
+}
+.nav-img {
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ol li {
+    font-family: sans-serif;
+    font-size: 1.4em;
+    cursor: pointer;
+    &:hover{
+        color: hsl(224, 93%, 58%);
+    }
+}
+/* first part */
+main {
+    width: 95%;
+    margin: 0 auto;
+    height: 80rem;
+}
+.first-part {
+    height: 35%;
+    width: 100%;
+    display: flex;
+    padding-bottom: 10rem;
+}
+.main1 {
+    height: 90%;
+    width: 100%;
+}
+.img-part img {
+    width: 100%;
+    height: 100%;
+}
+.content-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content-part h1 {
+    color: hsl(243, 87%, 12%);
+    font-size: 2rem;
+    width: 70%;
+    line-height: 50px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    height: 7rem;
+    cursor: help;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.content-part p {
+    width: 70%;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    padding-bottom: 1em;
+}
+.content-part form {
+    width: 67%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-part input {
+    height: 2.5rem;
+    font-family: "Raleway", sans-serif;
+border-radius: 5px;
+    width: 60%;
+    border: 1px solid gray;
+}
+.content-part button {
+    height: 2.5rem;
+    width: 35%;
+    border: transparent;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    background: hsl(224, 93%, 58%);
+    font-weight: 600;
+    border-radius: 2px;
+    box-shadow: 0px 0px 2px 3px hsla(243, 87%, 12%, 0.341);
+    transition: all .3s ;
+    &:hover{
+        box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.61);
+        
+    }
+}
+/* second part */
+.second-part {
+    width: 100%;
+    height: 50%;
+    background-image: url('./images/bg-curve-desktop.svg');
+    background-repeat: no-repeat;
+    display: flex;
+}
+.second {
+    height: 92%;
+    width: 50%;
+}
+.second-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second img {
+    height: 55%;
+    width: 70%;
+}
+.second-content {
+    padding-left: 2rem;
+    padding-top: 3rem;
+}
+.card {
+    height: 16rem;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 2rem;
+    position: relative;
+    top: 5rem;
+    box-shadow: 0px 0px 5px 2px hsla(243, 87%, 12%, 0.21);
+    border-radius: 5px;
+    transition: all .3s ;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+.card img {
+    height: 1rem;
+    width: 6%;
+}
+.card article {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    width: 90%;
+    line-height: 25px;
+}
+.profile {
+    display: flex;
+}
+.profile img {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2.5rem;
+}
+.profile section {
+    padding-left: .4rem;
+}
+.second-content h2 {
+    color: hsl(243, 87%, 12%);
+    width: 100%;
+    font-size: 2.5rem;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+.second-content p {
+    color: black;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    width: 73%;
+    padding-bottom: 1rem;
+}
+.second-content a {
+    color: green;
+    text-decoration: underline;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1.2rem;
+}
+/* signup part */
+.signup-part {
+    height: 15rem;
+    width: 100%;
+    background: hsl(238, 22%, 44%);
+    display: flex;
+}
+.sign1 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4rem;
+}
+.sign1 h2 {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+}
+.sign1 p {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    width: 63%;
+}
+.sign1 input {
+    width: 60%;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+}
+.sign1 button {
+    width: 30%;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    background: hsl(224, 93%, 58%);
+    color: white;
+    transition: all .3s ;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    &:hover{
+        box-shadow: 0px 0px 4px 5px rgba(255, 255, 255, 0.414);
+        
+    }
+}
+/* fpooter */
+footer {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30rem;
+    background: hsl(243, 87%, 12%);
+}
+footer li {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    list-style: none;
+    &:hover{
+        color: hsl(224, 93%, 58%);
+    }
+}
+footer img {
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    
+}
+#icons {
+    height: 3rem;
+    width: 15rem;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 90%;
+    left: 80%;
+}
+#icons div {
+    height: 100%;
+    width: 22%;
+    color: wheat;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    background: transparent;
+    transition: all .2s;
+
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.637);
+    }
+}
+footer div {
+    width: 23%;
+    height: 50%;
+    position: relative;
+    top: 20%;
+}
+footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+/* responsive */
+@media screen and (max-width:1406px) {
+    .nav-items {
+        width: 40%;
+    }
+    .content-part h1 {
+        font-size: 1.6rem;
+        width: 90%;
+        line-height: 35x;
+    }
+    .second-content h2 {
+        width: 100%;
+        font-size: 2rem;
+    }}
+@media screen and (max-width:1106px) {
+    main {
+        height: 90rem;
+    }
+    .card {
+        height: 15rem;
+        width: 60%;
+    }
+    .second-content h2 {
+        width: 100%;
+        font-size: 1.5em;
+    }
+
+    .nav-img {
+        width: 25%;
+    }}
+@media screen and (max-width:875px) {
+    .nav-items {
+        width: 50%;
+    }
+    .content-part h1 {
+        font-size: 1.3rem;
+        width: 90%;
+        line-height: 35x;
+    }
+    .second-content h2 {
+        width: 100%;
+        font-size: 1.3em;
+    }
+    .card {
+        height: 18rem;
+        width: 70%;
+    }
+    .nav-img {
+        width: 25%;
+    }
+    nav ol li {
+        font-size: 1.2em;
+    }
+    .sign1 button {
+        width: 60%;
+    }
+    .sign1 h2{
+        font-size: 1.5rem;
+    }
+    .sign1 p{
+        font-size: 1rem;
+        width: 80%;
+    }}
+@media screen and (max-width:718px) {
+    .content-part h1 {
+        font-size: 1rem;
+        line-height: 30px;
+    }
+    .second-content h2 {
+        width: 100%;
+        font-size: 1em;
+    }
+    .card {
+        height: 15rem;
+        width: 70%;
+    }
+    nav ol li {
+  font-size: 1em;
+    }
+    .second-content {
+        padding-left: 0px;
+    }
+    .sign1 button {
+        width: 60%;
+    }}
+
+@media screen and (max-width:690px) {
+    .nav-img {
+        width: 30%;
+    }
+    main {
+        height: 140rem;
+    }
+    .first-part {
+        height: 35%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10rem;
+    }
+    .img-part {
+        order: -1;
+        height: 20rem;
+    }
+    .content-part h1 {
+        text-align: center;
+        height: 6rem;
+        width: 100%;
+    }
+    .content-part p {
+        text-align: center;
+        width: 100%;
+    }
+    .content-part form {
+        margin: 0 auto;
+    }
+    .second-part {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .second {
+        height: 100%;
+        width: 100%;
+    }
+    .second-image {
+        order: -1;
+    }
+    .second-image img {
+        height: 70%;
+        width: 100%;
+    }
+    .second-content {
+        padding-left: 0px;
+    }
+    .second-content h2 {
+        width: 100%;
+        font-size: 1.7rem;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    .second-content p {
+        text-align: center;
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+    .second-content a {
+        font-size: 1.2rem;
+    }
+    .card {
+        left: 5%;
+    }
+    .signup-part {
+        flex-direction: column;
+        height: 20rem;
+    }
+    .sign1 {
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        padding-left: 0px;
+    }
+    .sign1 p {
+        width: 100%;
+        padding-left: 0px;
+        padding-bottom: 1rem;
+    }
+    .second-content {
+        padding-left: 0px;
+    }
+    .sign1 button {
+        width: 60%;
+    }}
+@media screen and (max-width:570px) {
+    .nav-img {
+        width: 35%;
+    }
+    nav ol li {
+        font-size: .6em;
+    }
+    .second-content {
+        padding-left: 0px;
+    }}
+@media screen and (max-width:460px) {
+    header ol {
+        gap: 2rem
+    }
+    nav ol li {
+        font-size: .9em;
+    }
+    .second-image {
+        width: 100%;
+        height: 70%;
+    }
+    .second {
+        width: 92%;
+    }
+    .second-content {
+        padding-left: 0px;
+    }}
+@media screen and (max-width:409px) {
+    .nav-img img {
+        height: 2rem;
+    }
+    .nav-img {
+        width: 35%;
+    }
+    header ol {
+        gap: 2rem
+    }
+    nav ol li {
+        font-size: .7em;
+    }
+    footer {
+        height: 40rem;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5rem;
+    }
+    footer img {
+        top: 6%;
+    }
+    footer div {
+        width: 70%;
+        height: 10%;
+        top: 0%;
+    }
+    .second-content {
+        padding-left: 0px;
+    }
+    .second {
+        width: 100%;
+    }}
